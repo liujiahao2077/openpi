@@ -1,0 +1,19 @@
+make_env: True
+env_id: "PlaceSubtaskTrain-v0"
+num_envs: 1
+max_episode_steps: 200
+continuous_task: True
+cat_state: False
+cat_pixels: False
+frame_stack: null
+stack: null
+stationary_base: False
+stationary_torso: False
+stationary_head: True
+spawn_data_fp: /raid/wenbo/assets/maniskill/data/scene_datasets/replica_cad_dataset/rearrange/spawn_data/set_table/place/train/spawn_data.pt
+task_plan_fp: /raid/wenbo/assets/maniskill/data/scene_datasets/replica_cad_dataset/rearrange/task_plans/set_table/place/train/024_bowl.json
+record_video: False
+info_on_video: True
+save_video_freq: 1
+env_kwargs:
+  require_build_configs_repeated_equally_across_envs: False

@@ -836,7 +836,7 @@ _CONFIGS = [
         model=pi0_config.Pi0Config(action_horizon=10),
        
         data=LeRobotMshabDataConfig(
-            repo_id="mshab_lerobot30_of_open_the_kitchen_counter",
+            repo_id="mshab_lerobot30_of_close_the_kitchen_counter",
             base_config=DataConfig(
                 prompt_from_task=True,
             ),

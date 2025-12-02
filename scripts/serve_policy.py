@@ -76,7 +76,7 @@ DEFAULT_CHECKPOINT: dict[EnvMode, Checkpoint] = {
     ),
     EnvMode.MSHAB: Checkpoint(
         config="pi0_mshab",
-        dir="/raid/ljh/openpi/checkpoints/pi0_mshab/pi0_place_bowl30/20000",
+        dir="/raid/ljh/openpi/checkpoints/pi0_mshab/pi0_close_kitchen_counter30/20000",
     ),
 }
 

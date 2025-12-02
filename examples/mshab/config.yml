@@ -1,5 +1,5 @@
 make_env: True
-env_id: "PlaceSubtaskTrain-v0"
+env_id: "CloseSubtaskTrain-v0"
 num_envs: 1
 max_episode_steps: 200
 continuous_task: True
@@ -10,8 +10,8 @@ stack: null
 stationary_base: False
 stationary_torso: False
 stationary_head: True
-spawn_data_fp: /raid/wenbo/assets/maniskill/data/scene_datasets/replica_cad_dataset/rearrange/spawn_data/set_table/place/train/spawn_data.pt
-task_plan_fp: /raid/wenbo/assets/maniskill/data/scene_datasets/replica_cad_dataset/rearrange/task_plans/set_table/place/train/024_bowl.json
+spawn_data_fp: /raid/wenbo/assets/maniskill/data/scene_datasets/replica_cad_dataset/rearrange/spawn_data/set_table/close/train/spawn_data.pt
+task_plan_fp: /raid/wenbo/assets/maniskill/data/scene_datasets/replica_cad_dataset/rearrange/task_plans/set_table/close/train/kitchen_counter.json
 record_video: False
 info_on_video: True
 save_video_freq: 1

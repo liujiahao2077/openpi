@@ -58,7 +58,7 @@ class Args:
     此环境配置将用于评估。
     """
 
-    prompt: str = "place the bowl"
+    prompt: str = "close the kitchen counter"
     """
     提供给 Pi0 模型的自然语言指令。
     必须与 'mshab_env_config_path' 中的任务相匹配。

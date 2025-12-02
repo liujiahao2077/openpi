@@ -169,3 +169,5 @@ cython_debug/
 
 third_party/aloha/
 third_party/libero/
+.vscode/
+.github/
